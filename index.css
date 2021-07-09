@@ -1,0 +1,92 @@
+@import url(menu.css);
+@import url(info.css);
+@import url(faq.css);
+@import url(products.css);
+
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 0px 5px #000;
+    z-index: 1000;
+}
+
+header h1{
+    color: #000;
+    text-shadow: 0px 0px 5px #777;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.Logo{
+    float: left;
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* .Banner{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+} */
+
+
+body h2{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+
+.Contenedor{
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 2px solid #222;
+}
+
+.Products img{
+    display: block;
+    margin: 12px 8px;
+    border-radius: 10%;
+    border: 4px solid white;
+}
+
+.prefooter{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+}
+
+.Form{
+    display: block;
+    padding: 1px;
+    margin: 4px 15px;
+    max-width: fit-content;
+}
+
+.Form input{
+    margin: 6px 0px;
+    border: 1px solid #000;
+    background: transparent;
+    padding: 4px;
+}
+
+.Send{
+    margin: 0px auto 2px 15px;
+    padding: 4px;
+}

@@ -1,0 +1,51 @@
+.Categorias{
+    display: flex;
+    background-color: rgb(223, 223, 223);
+    margin: 0px auto 0px auto;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+}
+
+.Categorias a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.Categorias a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15%;
+}
+
+.fondo{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.basement{
+    position: relative;
+    top: -25px;
+    display: inline;
+    margin: 0px 15px 0px;
+}
+
+.productName{
+    font-size: 25px;
+    text-align: center;
+}
+
+.productImg{
+    display: block;
+    margin: 0px auto 5px;
+    width: 180px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.price{
+    font-size: 15px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.contenedor{
+    margin: 2.5%;
+    border: 1px solid #333;
+    padding: 10px 5px 10px 5px;
+}
+
+.Mapa{
+    display: block;
+    padding: 1px;
+    margin: 15px auto 15px auto;
+}
